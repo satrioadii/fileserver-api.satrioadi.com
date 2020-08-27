@@ -1,0 +1,35 @@
+{
+	"name": "fileserver_api_satrioadi.com",
+	"version": "1.0.0",
+	"description": "API for accessing contents in website satrioadi.com",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server",
+		"dev": "nodemon server"
+	},
+	"keywords": [
+		"Backend",
+		"NodeJS",
+		"Express",
+		"MongoDB"
+	],
+	"author": "satrioadi",
+	"license": "MIT",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"cookie-parser": "^1.4.5",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.1.9",
+		"helmet": "^4.0.0",
+		"hpp": "^0.2.3",
+		"jsonwebtoken": "^8.5.1",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.4",
+		"request": "^2.88.2",
+		"sib-api-v3-sdk": "^7.2.4",
+		"slugify": "^1.4.5",
+		"xss-clean": "^0.1.1"
+	}
+}
