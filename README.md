@@ -1,4 +1,4 @@
-# API for Riliv for Company Resource/s
+# API for File Server
 
 Backend service for serve file
 
